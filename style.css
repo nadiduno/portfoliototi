@@ -4,15 +4,59 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font: 400 1rem;
+    -webkit-font-smoothing: antialiased;
+}
+
 .container {
-    border: 1px solid red;
-    width: 100%;
+    width: 100vw;
     max-width: 1120px;
     min-height: 100vh;
     margin: 0 auto;
-    padding: 0 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
     justify-items: center;
 }
+
+.user {
+    width: 100%;
+    height: 11.813rem;
+    background: #3D265E;
+    padding: 0 1rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 1.125rem;
+}
+
+.role {
+    color: #E84F30;
+    display: grid;
+    justify-items: center;
+    gap: 0.5rem;
+    font-size: small;
+}
+
+.other {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    font-weight: 700;
+}
+
+.logos img:nth-child(2) {
+    margin: 0 0.75rem;
+}
+
+
+/* border: 1px solid gold; */
