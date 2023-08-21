@@ -53,7 +53,7 @@ body {
     justify-items: center;
 }
 
-.logos img:nth-child(2) {
+.logos img {
     margin: 0 0.75rem;
 }
 
@@ -108,15 +108,126 @@ body {
 }
 
 .work {
-    border: 1px solid gold;
     width: 100%;
-    height: 28rem;
-    margin-top: 1.375rem
+    margin-top: 1.375rem;
+}
+
+.title {
+    color: #E84F30;
+    font-weight: 700;
+    margin-left: 1.125rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 1.125rem;
+    gap: 1rem;
+}
+
+.card {
+    width: 11.563rem;
+    height: 11.5rem;
+}
+
+.boxTop {
+    width: 11.563rem;
+    height: 6.063rem;
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+}
+
+.boxTop img {
+    width: 100%;
+    height: 100%;
+}
+
+.boxBottom {
+    width: 11.563rem;
+    height: 5.438rem;
+    background: #1F1F1F;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.boxBottom p {
+    color: #E84F30;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0.75rem 0 0.625rem 0.875rem;
+}
+
+.boxBottom span {
+    color: #E3E2E5;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-left: 0.875rem;
+}
+
+a {
+    text-decoration: transparent;
+    transition: filter 0.2s;
 }
 
 
+a:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
 .foot {
-    border: 1px solid red;
     width: 100%;
     height: 3.125rem;
+    background: #1F1F1F;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.logototi {
+    background: #E3E2E5;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0.125rem;
+}
+
+.extras {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.25rem;
+}
+
+.extras span {
+    font-size: 0.65rem;
+}
+
+.extras img {
+    margin: 0 0.125rem;
+}
+
+
+@media screen and (min-width: 769px) {
+    .card {
+        width: 22rem;
+        height: 22rem;
+    }
+
+    .boxTop {
+        width: 22rem;
+        height: 11rem;
+    }
+
+    .boxBottom {
+        width: 22rem;
+        height: 6rem;
+    }
+
+    .extras {
+        padding: 1rem;
+    }
+
+    .extras span {
+        font-size: 0.75rem;
+    }
+
 }
