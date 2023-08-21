@@ -51,12 +51,72 @@ body {
     display: flex;
     justify-content: space-between;
     justify-items: center;
-    font-weight: 700;
 }
 
 .logos img:nth-child(2) {
     margin: 0 0.75rem;
 }
 
+.details {
+    width: 100%;
+    height: 11.25rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 
-/* border: 1px solid gold; */
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    margin-top: -3rem;
+}
+
+.photo img {
+    width: 5.625rem;
+    height: 5.625rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #3D265E;
+}
+
+.frameOrange {
+    width: 95%;
+    height: 7.125rem;
+    background: #E84F30;
+    border-radius: 0px 20px;
+    display: flex;
+    justify-content: center;
+    padding: .125rem;
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+.frameOrange span {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: .75rem;
+    /* Espaçamento entre linhas */
+    line-height: 1.5;
+    /* Espaçamento entre letras */
+    /* letter-spacing: .125rem; */
+}
+
+.work {
+    border: 1px solid gold;
+    width: 100%;
+    height: 28rem;
+    margin-top: 1.375rem
+}
+
+
+.foot {
+    border: 1px solid red;
+    width: 100%;
+    height: 3.125rem;
+}
