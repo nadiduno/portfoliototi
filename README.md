@@ -14,7 +14,7 @@
   <img 
     alt="Captura de pantalla do aplicativo, é um portfólio que tem a foto, dados pessoais e principais trabalhos, as cores que ressaltam é o roxo e laranja"
     src="https://raw.githubusercontent.com/nadiduno/portfoliototi/main/.github/imgApp.png" 
-    width="40%"
+    width="30%"
   >
   <br />
 </div>
