@@ -38,7 +38,7 @@ body {
 }
 
 .role {
-    color: #E84F30;
+    color: #fff;
     display: grid;
     justify-items: center;
     gap: 0.5rem;
@@ -162,7 +162,7 @@ a:hover {
 }
 
 .boxBottom p {
-    color: #E84F30;
+    color: #fff;
     font-size: 0.875rem;
     font-weight: 700;
     padding: 0.75rem 0 0.625rem 0.875rem;
