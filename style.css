@@ -209,7 +209,7 @@ a:hover {
 @media screen and (min-width: 769px) {
     .card {
         width: 22rem;
-        height: 22rem;
+        height: 16rem;
     }
 
     .work {
