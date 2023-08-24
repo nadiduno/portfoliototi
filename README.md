@@ -19,7 +19,18 @@
   <br />
 </div>
 
+# Acessibilidade com Wave
 
+<div>
+  <img 
+    src="https://raw.githubusercontent.com/nadiduno/portfoliototi/main/.github/imgAppAccessibility.png" 
+    width="30%"
+  >
+  <br />
+</div>
+
+
+[Wave](https://wave.webaim.org/)
 
 # Design
 
