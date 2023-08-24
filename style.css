@@ -28,7 +28,7 @@ body {
     justify-items: center;
     align-items: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .name {
@@ -81,8 +81,7 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 0.75rem;
-    margin-top: -3rem;
+    margin: -3rem 0 0.75rem;
 }
 
 .photo img {
@@ -145,7 +144,7 @@ a:hover {
 .boxTop {
     width: 11.563rem;
     height: 6.063rem;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0 0;
     overflow: hidden;
 }
 
@@ -158,7 +157,7 @@ a:hover {
     width: 11.563rem;
     height: 5.438rem;
     background: #1F1F1F;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0 0 8px 8px;
 }
 
 .boxBottom p {
@@ -207,13 +206,13 @@ a:hover {
 
 
 @media screen and (min-width: 769px) {
+    .work {
+        width: 70%;
+    }
+
     .card {
         width: 22rem;
         height: 16rem;
-    }
-
-    .work {
-        width: 70%;
     }
 
     .boxTop {
