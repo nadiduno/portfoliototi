@@ -19,7 +19,7 @@
   <br />
 </div>
 
-# Acessibilidade com Wave
+# Acessibilidade 
 
 <div>
   <img 
@@ -30,7 +30,7 @@
 </div>
 
 
-[Wave](https://wave.webaim.org/)
+[Testar com Wave](https://wave.webaim.org/)
 
 # Design
 
