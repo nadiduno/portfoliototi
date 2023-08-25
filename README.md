@@ -36,6 +36,6 @@
 
 Design de  [Nadi Duno](https://www.linkedin.com/in/nadiduno/) - [Ver Figma](https://bit.ly/3QMRwxs)
 
-[Toti Diversidade](https://totidiversidade.com.br/) © 2023
+Com <💜 /> [Toti Diversidade](https://totidiversidade.com.br/) © 2023
 
 
